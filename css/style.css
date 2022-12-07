@@ -1,0 +1,178 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.header {
+    background-color: #1f2937;
+    height: 48px;
+    padding-top: 16px;
+    padding-left: 120px;
+}
+
+.hero {
+    background-color: #1f2937;
+    flex-grow: 1;
+    padding: 60px 120px 60px 120px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    flex-grow: 1;
+    padding: 60px 120px 60px 120px;
+}
+
+.information {
+    background-color: white;
+    flex-grow: 1;
+    padding-bottom: 60px;
+}
+
+.action {
+    background-color: white;
+    flex-grow: 1;
+    padding: 60px 120px 60px 120px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    height: 48px;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.header-links {
+    display: flex;
+    justify-items: center;
+    gap: 20px;
+    padding-right: 120px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 13px 0;
+}
+
+.link {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+  
+li {
+    list-style-type: none;
+}
+
+.main-image {
+    padding-right: 120px;
+    background-color: rgb(194, 191, 191);
+    width: 500px;
+    height: 200px;
+    text-align: center;
+
+}
+
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #1f2937;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 4px;
+    width: 100px;
+    height: 26px;
+}
+
+.blue-box {
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #3882f6;
+}
+
+.illustrations {
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+    padding: 0 120px;
+}
+
+.subtext {
+    max-width: 200px;
+    text-align: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 30;
+    font-style: italic;
+    color: #1f2937;
+    padding: 0 160px;
+    text-align: center;
+}
+
+.quote-name {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0 160px;
+
+}
+
+.blue-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: white;
+    padding: 20px 120px;
+
+}
+
+#sign-up {
+    border-style: solid;
+    border-color: white;
+    border-radius: 4px;
+}
+
+.call {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0;
+}
